@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Win.LeetProxy.Client", "apps\Win.LeetProxy.Client\proj.win32\vc2013\Win.LeetProxy.Client.vcxproj", "{4DC1F96A-9904-4625-AC38-A3B562195EBF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4ADA4D62-8129-4D84-BAF4-D806D50F6F25} = {4ADA4D62-8129-4D84-BAF4-D806D50F6F25}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LeetProxyClient", "projects\LeetProxyClient\proj.win32\vc2013\LeetProxyClient.vcxproj", "{4ADA4D62-8129-4D84-BAF4-D806D50F6F25}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LeetProxyServ", "projects\LeetProxyServ\proj.win32\vc2013\LeetProxyServ.vcxproj", "{EE9F5F9A-5226-4EA5-9BFA-C0675C35C4A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DC1F96A-9904-4625-AC38-A3B562195EBF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4DC1F96A-9904-4625-AC38-A3B562195EBF}.Debug|Win32.Build.0 = Debug|Win32
+		{4DC1F96A-9904-4625-AC38-A3B562195EBF}.Release|Win32.ActiveCfg = Release|Win32
+		{4DC1F96A-9904-4625-AC38-A3B562195EBF}.Release|Win32.Build.0 = Release|Win32
+		{4ADA4D62-8129-4D84-BAF4-D806D50F6F25}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4ADA4D62-8129-4D84-BAF4-D806D50F6F25}.Debug|Win32.Build.0 = Debug|Win32
+		{4ADA4D62-8129-4D84-BAF4-D806D50F6F25}.Release|Win32.ActiveCfg = Release|Win32
+		{4ADA4D62-8129-4D84-BAF4-D806D50F6F25}.Release|Win32.Build.0 = Release|Win32
+		{EE9F5F9A-5226-4EA5-9BFA-C0675C35C4A3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EE9F5F9A-5226-4EA5-9BFA-C0675C35C4A3}.Debug|Win32.Build.0 = Debug|Win32
+		{EE9F5F9A-5226-4EA5-9BFA-C0675C35C4A3}.Release|Win32.ActiveCfg = Release|Win32
+		{EE9F5F9A-5226-4EA5-9BFA-C0675C35C4A3}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
